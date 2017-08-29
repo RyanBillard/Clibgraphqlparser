@@ -1,5 +1,5 @@
 module Clibgraphqlparser [system] {
-  header "Clibgraphqlparser.h"
+  header "/usr/local/include/graphqlparser/Clibgraphqlparser.h"
   link "graphqlparser"
   export *
 }
