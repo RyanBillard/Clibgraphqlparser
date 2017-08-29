@@ -5,5 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "Clibgraphqlparser",
-    pkgConfig: "libgraphqlparser"
+    pkgConfig: "libgraphqlparser",
+    products: [
+      .library(name: "Clibgraphqlparser", targets: ["Clibgraphqlparser"])
+    ],
+    targets: [
+      .target(name: "Clibgraphqlparser", dependencies: [])
+    ]
 )
