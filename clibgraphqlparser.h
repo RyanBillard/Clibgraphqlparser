@@ -1,4 +1,4 @@
-#import <c/GraphQLAstNode.h>
-#import <c/GraphQLAstToJSON.h>
-#import <c/GraphQLAstVisitor.h>
-#import <c/GraphQLParser.h>
+#import </usr/local/include/graphqlparser/c/GraphQLAstNode.h>
+#import </usr/local/include/graphqlparser/c/GraphQLAstToJSON.h>
+#import </usr/local/include/graphqlparser/c/GraphQLAstVisitor.h>
+#import </usr/local/include/graphqlparser/c/GraphQLParser.h>
