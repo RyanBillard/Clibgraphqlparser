@@ -6,9 +6,6 @@ import PackageDescription
 let package = Package(
     name: "Clibgraphqlparser",
     pkgConfig: "libgraphqlparser",
-    providers: [
-      .brew(["libgraphqlparser"])
-    ],
     products: [
       .library(name: "Clibgraphqlparser", targets: ["Clibgraphqlparser"])
     ],
